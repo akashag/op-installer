@@ -26,7 +26,7 @@ fi
 
 # Ask for token interactively — hidden like a password
 echo "Enter your GitHub Personal Access Token:"
-read -s TOKEN
+read -r TOKEN
 echo ""
 
 if [[ -z "$TOKEN" ]]; then
